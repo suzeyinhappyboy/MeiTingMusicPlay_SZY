@@ -17,14 +17,14 @@ import android.widget.BaseAdapter;
 import android.widget.TextView;
 
 /**
- * Created by alex.lee on 2015-07-26.
+ * Created by SuZeYin on 2016-01-26.
  */
 public class AdviseGridAdapter extends BaseAdapter {
 	private Random random;
 	private Context context;
 	private int[] ids = new int[]{
 			R.drawable.hot_advise_1, R.drawable.hot_advise_2, R.drawable.hot_advise_3,
-			R.drawable.hot_advise_4, R.drawable.hot5, R.drawable.hot6
+			R.drawable.hot_advise_4, R.drawable.hot_advice_5, R.drawable.hot_advice_6
 	};
 	private String[] songs = new String[]{
 			"春神曲", "夏恋曲", "秋歌曲",

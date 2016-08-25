@@ -333,7 +333,6 @@ public class MainActivity extends FragmentActivity {
 		filter.addAction(Constant.UPDATE_STATUS);
 		this.registerReceiver(mu, filter);
 
-		//����֪ͨ������
 		//Notification();
 	}
 
@@ -407,20 +406,20 @@ public class MainActivity extends FragmentActivity {
 			iv_play.setImageResource(R.drawable.playbar_btn_play);
 		}
 		
-//		MusicApplication mApp=(MusicApplication)getApplication();
-//		if(mApp.isExit())
-//		{
-//			// ��¼λ��;
-//			SharedPreferences sp = this.getSharedPreferences("music",
-//					Context.MODE_MULTI_PROCESS);
-//			SharedPreferences.Editor spEditor = sp.edit();
-//			spEditor.putInt("current", sb.getProgress());
-//			spEditor.commit();
-//			NotificationManager notificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
-//			notificationManager.cancel(0);
-//			finish();
-//			System.exit(0);
-//		}
+/*		MusicApplication mApp=(MusicApplication)getApplication();
+		if(mApp.isExit())
+		{
+			// ��¼λ��;
+			SharedPreferences sp = this.getSharedPreferences("music",
+					Context.MODE_MULTI_PROCESS);
+			SharedPreferences.Editor spEditor = sp.edit();
+			spEditor.putInt("current", sb.getProgress());
+			spEditor.commit();
+			NotificationManager notificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+			notificationManager.cancel(0);
+			finish();
+			System.exit(0);
+		}*/
 	}
 	
 	public void setShared(String key, int value)

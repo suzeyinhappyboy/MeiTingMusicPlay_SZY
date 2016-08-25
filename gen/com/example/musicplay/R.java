@@ -199,8 +199,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int discover_icn_earphone=0x7f020030;
         public static final int fm_cover=0x7f020031;
         public static final int focus_loading=0x7f020032;
-        public static final int hot5=0x7f020033;
-        public static final int hot6=0x7f020034;
+        public static final int hot_advice_5=0x7f020033;
+        public static final int hot_advice_6=0x7f020034;
         public static final int hot_advise_1=0x7f020035;
         public static final int hot_advise_2=0x7f020036;
         public static final int hot_advise_3=0x7f020037;
@@ -275,7 +275,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int main_search=0x7f02007c;
         public static final int main_selectskin_l1=0x7f02007d;
         public static final int main_selectskin_l2=0x7f02007e;
-        public static final int main_skin_l=0x7f02007f;
+        public static final int main_skin=0x7f02007f;
         public static final int main_title_back_l=0x7f020080;
         public static final int main_title_close_l=0x7f020081;
         public static final int main_title_edit_l=0x7f020082;
