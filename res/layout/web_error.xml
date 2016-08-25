@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/gray_error">
+
+    <ImageView
+        android:id="@+id/web_error"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:duplicateParentState="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/web_error" />
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/blue"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/title_imagebutton_back_l"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:background="@drawable/local_colorchange_l"
+        android:scaleType="centerInside"
+        android:src="@drawable/main_title_back_l" />
+
+    <TextView
+        android:id="@+id/title_textview_title_l"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.48"
+        android:gravity="center"
+        android:text="@string/localmusic_title"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <ImageButton
+        android:id="@+id/title_imagebutton_search_l"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:background="@drawable/local_colorchange_l"
+        android:scaleType="centerInside"
+        android:src="@drawable/main_title_search_l" />
+
+    <ImageButton
+        android:id="@+id/title_imagebutton_menu_l"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:background="@drawable/local_colorchange_l"
+        android:scaleType="centerInside"
+        android:src="@drawable/main_title_menu_l" />
+
+</LinearLayout>

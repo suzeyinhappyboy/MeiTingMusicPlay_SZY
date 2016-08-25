@@ -1,0 +1,129 @@
+<android.support.v4.widget.DrawerLayout
+	android:id="@+id/slide_menu"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	
+	<include layout="@layout/slide_menu_content"/> 
+	
+	<android.support.v4.view.ViewPager
+		android:id="@+id/view_pager"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"/>
+
+	<RelativeLayout
+		android:id="@+id/content_frame"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="3dp"
+			android:layout_above="@+id/ll_music_control"
+			android:background="@drawable/shadow_ll_music_cotrol"/>
+
+		<LinearLayout
+			android:id="@+id/music_control"
+			android:layout_width="match_parent"
+			android:layout_height="55dp"
+			android:layout_alignParentBottom="true"
+			android:background="#eeffffff"
+			android:clickable="true" >
+			<LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_weight="5"
+	            android:orientation="horizontal" >
+				<ImageView
+					android:layout_width="45dp"
+					android:layout_height="match_parent"
+					android:layout_margin="2dip"
+					android:src="@drawable/bottom_music_singer"/>
+			</LinearLayout>
+			
+			<LinearLayout
+				android:id="@+id/music_play"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:orientation="vertical">
+
+				<LinearLayout
+	                android:id="@+id/LinearLayout_main_SeekBar"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_weight="3" >
+	
+	                <SeekBar
+	                    android:id="@+id/seekBar1"
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:maxHeight="3dip"
+	                    android:minHeight="3dip"
+	                    android:paddingLeft="8dip"
+	                    android:paddingRight="8dip"
+	                    android:progressDrawable="@drawable/myselector_main_progress_w"
+	                    android:thumb="@drawable/myselector_main_thumb_w"
+	                    android:thumbOffset="4dip" />
+            	</LinearLayout>
+            	
+            	<LinearLayout
+	                android:id="@+id/LinearLayout_xiamian"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_weight="1"
+	                android:orientation="horizontal" >
+	                <LinearLayout
+	                    android:id="@+id/linearlayout_ge"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="fill_parent"
+	                    android:layout_weight="1"
+	                    android:orientation="vertical" >
+						<TextView
+						    android:id="@+id/main_textview_gequ"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+	                        android:layout_marginLeft="5dip"
+	                        android:singleLine="true"
+							android:text="古域之域"
+							android:textSize="17sp"/>
+		
+						<TextView
+						    android:id="@+id/main_textview_geshou"
+							android:layout_width="wrap_content"
+	                        android:layout_height="wrap_content"
+	                        android:layout_marginLeft="5dip"
+	                        android:singleLine="true"
+							android:text="赵时"
+							android:textColor="#BABABA"
+							android:textSize="16sp"/>
+					</LinearLayout>
+
+                	<LinearLayout
+	                    android:layout_width="match_parent"
+	                    android:layout_height="fill_parent"
+	                    android:layout_weight="1"
+	                    android:gravity="right"
+	                    android:orientation="horizontal" >
+						<ImageView
+							android:id="@+id/btnplay"
+							android:layout_width="55dp"
+							android:layout_height="45dp"
+							android:src="@drawable/playbar_btn_play">
+						</ImageView>
+						
+						<ImageView
+							android:id="@+id/btnnext"
+							android:layout_width="55dp"
+							android:layout_height="45dp"
+							android:src="@drawable/playbar_btn_next">
+						</ImageView>
+				</LinearLayout>
+			</LinearLayout>		
+		</LinearLayout>
+		</LinearLayout>
+	</RelativeLayout>
+
+ 	
+</android.support.v4.widget.DrawerLayout>
+

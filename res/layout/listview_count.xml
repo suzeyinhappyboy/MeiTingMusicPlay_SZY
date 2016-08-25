@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayout_null"
+    android:layout_width="fill_parent"
+    android:layout_height="100dp"
+    android:background="@color/white"
+    android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/localmusic_textview_summusic"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="10dip"
+        android:gravity="center_horizontal"
+        android:textColor="@color/gray"
+        android:textSize="18dip" >
+    </TextView>
+</LinearLayout>
