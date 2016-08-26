@@ -38,4 +38,5 @@
     <color name="yellow_dark">#E1E100</color>
     <color name="purple">#AE00AE</color>
     <color name="purple_dark">#930093</color>
+    <color name="translucent_grey">#809E9E9E</color>
 </resources>

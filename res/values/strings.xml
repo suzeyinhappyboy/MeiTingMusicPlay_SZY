@@ -2,6 +2,7 @@
 	<string name="app_name">美听</string>
 
 	<string name="hello_world">Hello world!</string>
+	<string name="share">分享</string>
 	<string name="action_settings">Settings</string>
 	<string name="slide_menu_sign">签到</string>
 	<string name="action_search">搜索</string>
@@ -20,7 +21,7 @@
 	<string name="banner_anchor_station">主播电台</string>
 	<string name="banner_ranking_list">排行榜</string>
 	<string name="action_fm">查看歌曲更多信息</string>
-	
+	<string name="share_music">我用%1$s分享了歌曲《%2$s》%3$s</string>
     <string name="main_singer">传播好声音</string>              <!-- 主界面用到的字符串 -->
     <string name="main_song">美听音乐</string>                 <!-- 主界面用到的字符串 -->
     <string name="main_local">本地音乐</string>                <!-- 主界面用到的字符串 -->

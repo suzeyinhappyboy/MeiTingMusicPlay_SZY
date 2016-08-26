@@ -5,4 +5,13 @@
 		<item>@drawable/actionbar_music</item>
 		<item>@drawable/actionbar_friends</item>
 	</string-array>
+	
+	<string-array name="online_music_dialog">
+        <item>分享</item>
+        <item>下载</item>
+    </string-array>
+    <string-array name="online_music_dialog_without_download">
+        <item>分享</item>
+    </string-array>
+    
 </resources>

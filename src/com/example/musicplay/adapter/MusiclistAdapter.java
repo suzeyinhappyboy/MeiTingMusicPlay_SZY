@@ -3,6 +3,7 @@ package com.example.musicplay.adapter;
 import java.util.ArrayList;
 
 import com.example.musicplay.R;
+
 import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,6 +15,7 @@ public class MusiclistAdapter extends BaseAdapter {
 
 	ArrayList<Song> alist;
 	Context mContext;
+	private OnMoreClickListener mListener;
 	
 	public  MusiclistAdapter(ArrayList<Song> alist,Context mContext) {
 		// TODO Auto-generated constructor stub
@@ -40,13 +42,14 @@ public class MusiclistAdapter extends BaseAdapter {
 	}
 
 	@Override
-	public View getView(int position, View convertView, ViewGroup parent) {
+	public View getView(final int position, View convertView, ViewGroup parent) {
 		ViewHolder viewhodler;
 		if (convertView == null) {
 			viewhodler = new ViewHolder();
 			convertView = View.inflate(mContext, R.layout.item_song_list, null);
 			viewhodler.tvTitle = (TextView) convertView.findViewById(R.id.songname);
 			viewhodler.tvAuth = (TextView) convertView.findViewById(R.id.singer);
+			viewhodler.ivMore = (ImageView) convertView.findViewById(R.id.iv_more);
 			convertView.setTag(viewhodler);
 		} else {
 			viewhodler = (ViewHolder) convertView.getTag();
@@ -54,9 +57,21 @@ public class MusiclistAdapter extends BaseAdapter {
 		
 		viewhodler.tvTitle.setText(""+alist.get(position).getTitle());
 		viewhodler.tvAuth.setText(""+alist.get(position).getSinger());
+		viewhodler.ivMore.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				mListener.onMoreClick(position);
+				
+			}
+		});
 		//System.out.println("MusiclistAdapter tvTitle="+alist.get(position).getTitle());
 		return convertView;
 	}
+	
+	public void setOnMoreClickListener(OnMoreClickListener listener) {
+        mListener = listener;
+    }
 	
 	public void refresh() {
 	//	count += 10;
@@ -68,5 +83,6 @@ public class MusiclistAdapter extends BaseAdapter {
 		TextView tvCount;
 		TextView tvTitle;
 		ImageView ivStar;
+		ImageView ivMore;
 	}
 }
