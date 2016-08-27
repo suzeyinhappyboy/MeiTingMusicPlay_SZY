@@ -26,3 +26,8 @@ UI界面简介：
 
 
 ##可以直接下载APK体验
+
+![image](https://github.com/suzeyinhappyboy/MeiTingMusicPlay_SZY/blob/master/APP_Picture/Screenshot_2016-08-27-11-47-59.png）
+![image](https://github.com/suzeyinhappyboy/MeiTingMusicPlay_SZY/blob/master/APP_Picture/Screenshot_2016-08-27-11-48-24.png）
+![image](https://github.com/suzeyinhappyboy/MeiTingMusicPlay_SZY/blob/master/APP_Picture/Screenshot_2016-08-27-11-48-50.png）
+![image](https://github.com/suzeyinhappyboy/MeiTingMusicPlay_SZY/blob/master/APP_Picture/Screenshot_2016-08-27-11-49-18.png）
