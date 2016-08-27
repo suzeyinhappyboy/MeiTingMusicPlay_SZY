@@ -23,13 +23,15 @@ UI界面简介：
 * 歌词滚动显示
 
 * 断点续传
+ 
+* 分享到其他APP
 
 
 ##可以直接下载APK体验
 
 ![image](https://github.com/suzeyinhappyboy/MeiTingMusicPlay_SZY/blob/master/APP_Picture/Screenshot_2016-08-27-11-47-59.png)
 
-![image](https://github.com/suzeyinhappyboy/MeiTingMusicPlay_SZY/blob/master/APP_Picture/Screenshot_2016-08-27-11-48-24.png)
+![image](https://github.com/suzeyinhappyboy/MeiTingMusicPlay_SZY/blob/master/APP_Picture/Screenshot_2016-08-27-17-06-47.png)
 
 ![image](https://github.com/suzeyinhappyboy/MeiTingMusicPlay_SZY/blob/master/APP_Picture/Screenshot_2016-08-27-11-48-50.png)
 
