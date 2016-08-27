@@ -4,6 +4,9 @@ package com.example.musicplay.fragment;
 import java.io.File;
 import java.util.ArrayList;
 
+import com.example.musicplay.DownloadActivity;
+import com.example.musicplay.MainActivity;
+import com.example.musicplay.MusicPlayActivity;
 import com.example.musicplay.R;
 import com.example.musicplay.adapter.DatabaseUtil;
 import com.example.musicplay.adapter.MusiclistAdapter;
@@ -96,11 +99,32 @@ public class SongListFragment extends Fragment implements OnMoreClickListener{
 		listView.setOnItemLongClickListener(new OnItemLongClickListener() {
 
 			@Override
-			public boolean onItemLongClick(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
-				// TODO Auto-generated method stub
+			public boolean onItemLongClick(AdapterView<?> arg0, View arg1, int position, long arg3) {
+				final String playpath = BaseURL + musiclist.get(position).getFileUrl();
+				String title = musiclist.get(position).getTitle();
+		        AlertDialog.Builder dialog = new AlertDialog.Builder(getActivity());
+		        dialog.setTitle(title);
+		        File file = new File(playpath);
+		        int itemsId = file.exists() ? R.array.online_music_dialog_without_download : R.array.online_music_dialog;
+		        dialog.setItems(itemsId, new DialogInterface.OnClickListener() {
+		            @Override
+		            public void onClick(DialogInterface dialog, int which) {
+		                switch (which) {
+		                    case 0:// 分享
+		                    	System.out.println("playpath="+playpath);
+		                    	//ShareOnlineMusic(getActivity(), title, playpath);
+		                        break;
+		                    case 1:// 
+		                    	//DownloadOnlineMusic(playpath);
+		                        break;
+		                }
+		            }
+		        });
+		        dialog.show();
 				return false;
 			}
 		});
+		mAdapter.setOnMoreClickListener(this);
 		return view;
 	}
 	
@@ -118,10 +142,19 @@ public class SongListFragment extends Fragment implements OnMoreClickListener{
                 switch (which) {
                     case 0:// 分享
                     	System.out.println("playpath="+playpath);
-                    	//ShareOnlineMusic(getActivity(), title, playpath);
+                    	Intent intent = new Intent(Intent.ACTION_SEND);
+                        intent.setType("text/plain");
+                        intent.putExtra(Intent.EXTRA_TEXT, getActivity().getString(R.string.share_music, getActivity().getString(R.string.app_name),
+                        		title,playpath));
+                        getActivity().startActivity(Intent.createChooser(intent, getActivity().getString(R.string.share)));;
                         break;
                     case 1:// 
-                    	//DownloadOnlineMusic(playpath);
+                    	System.out.println("title="+title);
+                    	System.out.println("playpath="+playpath);
+                    	Intent downloadintent = new Intent(getActivity(),DownloadActivity.class);
+                    	downloadintent.putExtra("title", title);
+                    	downloadintent.putExtra("path",playpath);
+                    	getActivity().startActivity(downloadintent);
                         break;
                 }
             }

@@ -408,13 +408,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int LinearLayout_row=0x7f07004b;
         public static final int LinearLayout_xiamian=0x7f07000b;
         public static final int TextView_row=0x7f07004d;
-        public static final int action_menu=0x7f07007d;
-        public static final int action_search=0x7f07007c;
-        public static final int action_settings=0x7f07007e;
+        public static final int action_menu=0x7f070082;
+        public static final int action_search=0x7f070081;
+        public static final int action_settings=0x7f070083;
         public static final int actionbar_tab_icon=0x7f070002;
-        public static final int arr_2=0x7f070071;
-        public static final int arr_3=0x7f070073;
-        public static final int arr_4=0x7f070075;
+        public static final int arr_2=0x7f070076;
+        public static final int arr_3=0x7f070078;
+        public static final int arr_4=0x7f07007a;
         public static final int banner_viewpager=0x7f07003d;
         public static final int banner_viewpager_points=0x7f07003e;
         public static final int btnnext=0x7f070010;
@@ -427,6 +427,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int ctv_ranking_list=0x7f070045;
         public static final int ctv_song_list=0x7f070043;
         public static final int cv_calendar=0x7f070064;
+        public static final int downloadbutton=0x7f07006e;
         public static final int frame_container=0x7f070046;
         public static final int imageView_back=0x7f070012;
         public static final int imageView_row=0x7f07004c;
@@ -482,6 +483,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int player_textview_above=0x7f070022;
         public static final int player_textview_below=0x7f070023;
         public static final int player_textview_default=0x7f070021;
+        public static final int progressBar=0x7f070070;
+        public static final int resultView=0x7f070071;
         public static final int riv_cover=0x7f07005f;
         public static final int round=0x7f070001;
         public static final int scan_before_temp=0x7f070034;
@@ -502,23 +505,25 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int seekBar1=0x7f07000a;
         public static final int singer=0x7f070069;
         public static final int slide_menu=0x7f070003;
-        public static final int slide_menu_content=0x7f07006d;
-        public static final int slide_menu_user=0x7f07006e;
+        public static final int slide_menu_content=0x7f070072;
+        public static final int slide_menu_user=0x7f070073;
         public static final int songname=0x7f070068;
+        public static final int stopbutton=0x7f07006f;
+        public static final int titleView=0x7f07006d;
         public static final int title_imagebutton_back_l=0x7f070050;
         public static final int title_imagebutton_exit_l=0x7f070035;
         public static final int title_imagebutton_menu_l=0x7f070053;
         public static final int title_imagebutton_search_l=0x7f070052;
         public static final int title_textview_title_l=0x7f070051;
-        public static final int topmenu_icn_1=0x7f07006f;
-        public static final int topmenu_icn_2=0x7f070070;
-        public static final int topmenu_icn_3=0x7f070072;
-        public static final int topmenu_icn_4=0x7f070074;
-        public static final int topmenu_icn_5=0x7f070076;
-        public static final int topmenu_icn_6=0x7f070077;
-        public static final int topmenu_icn_7=0x7f070078;
-        public static final int topmenu_icn_8=0x7f070079;
-        public static final int topmenu_icn_9=0x7f07007a;
+        public static final int topmenu_icn_1=0x7f070074;
+        public static final int topmenu_icn_2=0x7f070075;
+        public static final int topmenu_icn_3=0x7f070077;
+        public static final int topmenu_icn_4=0x7f070079;
+        public static final int topmenu_icn_5=0x7f07007b;
+        public static final int topmenu_icn_6=0x7f07007c;
+        public static final int topmenu_icn_7=0x7f07007d;
+        public static final int topmenu_icn_8=0x7f07007e;
+        public static final int topmenu_icn_9=0x7f07007f;
         public static final int tv_anchor_name=0x7f070062;
         public static final int tv_count=0x7f070060;
         public static final int tv_date=0x7f07003c;
@@ -528,7 +533,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int tv_week=0x7f07003b;
         public static final int view_pager=0x7f070004;
         public static final int visualizerview=0x7f070026;
-        public static final int web_error=0x7f07007b;
+        public static final int web_error=0x7f070080;
     }
     public static final class layout {
         public static final int actionbar_tab=0x7f030000;
@@ -557,11 +562,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int item_song_list=0x7f030017;
         public static final int listview_count=0x7f030018;
         public static final int loading=0x7f030019;
-        public static final int selector_def_click=0x7f03001a;
-        public static final int slide_menu_content=0x7f03001b;
-        public static final int tip_blue=0x7f03001c;
-        public static final int tip_red=0x7f03001d;
-        public static final int web_error=0x7f03001e;
+        public static final int main=0x7f03001a;
+        public static final int selector_def_click=0x7f03001b;
+        public static final int slide_menu_content=0x7f03001c;
+        public static final int tip_blue=0x7f03001d;
+        public static final int tip_red=0x7f03001e;
+        public static final int web_error=0x7f03001f;
     }
     public static final class menu {
         public static final int menu_main=0x7f0c0000;
@@ -578,6 +584,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int banner_anchor_station=0x7f0a0012;
         public static final int banner_ranking_list=0x7f0a0013;
         public static final int banner_song_list=0x7f0a0011;
+        /**  网络功能用到的字符串 
+         */
+        public static final int button=0x7f0a0034;
+        public static final int error=0x7f0a0036;
         public static final int hello_world=0x7f0a0001;
         /**  本地音乐用到的字符串 
          */
@@ -649,6 +659,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /**  扫描音乐用到的字符串 
          */
         public static final int scan_complete_button=0x7f0a0026;
+        public static final int sdcarderror=0x7f0a0038;
         /**  播放音乐用到的字符串 
          */
         public static final int search=0x7f0a0022;
@@ -664,6 +675,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int slide_menu_setting=0x7f0a000e;
         public static final int slide_menu_sign=0x7f0a0004;
         public static final int slide_menu_stop_time=0x7f0a000d;
+        public static final int stopbutton=0x7f0a0037;
+        public static final int success=0x7f0a0035;
         /**  网络功能用到的字符串 
          */
         public static final int web_album=0x7f0a0032;

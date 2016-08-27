@@ -52,4 +52,9 @@
     <string name="web_singertop">歌手TOP3</string>              <!-- 网络功能用到的字符串 -->
     <string name="web_album">专辑</string>                      <!-- 网络功能用到的字符串 -->
     <string name="web_albumtop">专辑TOP3</string>               <!-- 网络功能用到的字符串 -->
+    <string name="button">开始下载</string>
+    <string name="success">下载完成</string>
+    <string name="error">下载出错</string>
+    <string name="stopbutton">暂停下载</string>
+    <string name="sdcarderror">没有SD卡</string>
 </resources>
